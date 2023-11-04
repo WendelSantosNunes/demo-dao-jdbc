@@ -71,6 +71,9 @@ useSSL=false
 
 ---
 
+
+```
+
 ## 🚀 Como executar
 
 ### Pré-requisitos
@@ -79,11 +82,34 @@ Ter feito a configuração do ambiente.
 
 ### Execução
 
-Clicar em run no arquivo src/main/java/br/com/wendel/todolist/TodoListApplication.java
+Clicar no arquivo Program.java e depois clicar na opção run
 
-<p align="center">
-  <img alt="Imagem do Portfólio" title="#Portfólio" src="./images/Execucao.png" />
-</p>
+```bash
+
+=== TEST 1: seller findAll ===
+Department [id=1, name=Computers]
+Department [id=2, name=Game]
+Department [id=3, name=Fashion]
+Department [id=4, name=Books]
+Department [id=5, name=Music]
+Department [id=6, name=Music]
+Department [id=7, name=Music]
+
+=== TEST 2: seller findById ===
+Enter the department id: 6
+Department [id=6, name=Music]
+
+=== TEST 3: seller insert ===
+9
+
+=== TEST 4: seller update ===
+Update completed
+
+=== TEST 5: seller delete ===
+Enter id for delete test: 6
+Delete completed
+
+```
 
 ---
 
